@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.dieContainer{
+    display:flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 200px;
+    width: 100%;   
 }
+.rollTheDice{
+    border-radius: 8px;
+    background-color: aqua;
+    height: 50px;
+    width: 150px;
+    margin-left: 35%;
+}
+.die{
+    align-items: center;
+    float: left;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    height: 150px;
+    width: 150px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 40px;
+    background-color: white;
+}
+h1{
+    margin-left: 35%;
 }
